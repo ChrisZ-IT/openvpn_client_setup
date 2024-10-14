@@ -1,8 +1,8 @@
 ---
 # tasks file for openvpn_client_setup
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/install_openvpn_client.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_openvpn_config.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/import_openvpn_client_config.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_openvpn_client_config.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_openvpn_client_auth.yml"
-- ansible.builtin.include_tasks: "{{ role_path }}/tasks/set_openvpn_service.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/01_install_openvpn_client.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/02_set_openvpn_config.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/03_import_openvpn_client_config.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/04_set_openvpn_client_config.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/05_set_openvpn_client_auth.yml"
+- ansible.builtin.include_tasks: "{{ role_path }}/tasks/06_set_openvpn_service.yml"
